@@ -19,7 +19,5 @@ export const ItemDetailContainer = () => {
         </div>
       </div>
     );
-  } else {
-    return <p>Cargando detalles...</p>;
   }
 };

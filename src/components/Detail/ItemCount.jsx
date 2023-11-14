@@ -19,16 +19,24 @@ export const ItemCount = (props) => {
   return (
     <div>
       <div className="d-flex">
-        <button type="button" className="btn btn-primary" onClick={restar}>
+        <button
+          type="button"
+          className="btn bg-black text-light"
+          onClick={restar}
+        >
           -
         </button>
         <p className="px-5">{initial}</p>
-        <button type="button" className="btn btn-primary" onClick={sumar}>
+        <button
+          type="button"
+          className="btn bg-black text-light"
+          onClick={sumar}
+        >
           +
         </button>
       </div>
-      <button type="button" className="btn btn-primary m-3">
-        Agregar al carro
+      <button type="button" className="btn btn-success mt-4">
+        Agregar al carrito
       </button>
     </div>
   );

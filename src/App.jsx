@@ -11,7 +11,10 @@ export const App = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<ItemListContainer />}></Route>
+        <Route
+          path="/"
+          element={<ItemListContainer message={"bienvenidos"} />}
+        ></Route>
         <Route path="/Servicios" element={<Servicios />} />
         <Route path="Contacto" element={<Contacto />} />
         <Route path="Cart" element={<Cart />} />
