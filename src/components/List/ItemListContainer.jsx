@@ -18,9 +18,9 @@ export const ItemListContainer = ({ message }) => {
   if (items.length > 0) {
     return (
       <>
-        <div className="text-light fs-1 pt-5 text-center">{message}</div>
-        <div className="d-flex container mt-5">
-          <div className="row g-5 d-flex justify-content-center">
+        <div className="text-white text-center text-5xl pt-10">{message}</div>
+        <div className="flex mt-20 justify-center">
+          <div className="flex gap-20">
             <ItemList items={items} />
           </div>
         </div>

@@ -4,7 +4,7 @@ const products = [
     name: "auricular",
     img: "./1.png",
     description: "Auriculares HiFi",
-    price: 20,
+    price: 35000,
     category: "audifono",
   },
   {
@@ -12,7 +12,7 @@ const products = [
     name: "Teclado",
     img: "./2.jpg",
     description: "Teclado midi 37 teclas",
-    price: 70,
+    price: 140000,
     category: "Instrumento",
   },
   {
@@ -20,7 +20,7 @@ const products = [
     name: "Monitor",
     img: "./3.jpg",
     description: "Parlante HiFi",
-    price: 50,
+    price: 120000,
     category: "Sonido",
   },
 ];

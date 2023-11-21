@@ -8,22 +8,24 @@ import { Cart } from "./components/Cart/Cart";
 
 export const App = () => {
   return (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route
-          path="/"
-          element={<ItemListContainer message={"bienvenidos"} />}
-        ></Route>
-        <Route path="/Servicios" element={<Servicios />} />
-        <Route path="Contacto" element={<Contacto />} />
-        <Route path="Cart" element={<Cart />} />
-        <Route path="/item/:id" element={<ItemDetailContainer />}></Route>
-        <Route
-          path="/category/:categoryId"
-          element={<ItemListContainer />}
-        ></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route
+            path="/"
+            element={<ItemListContainer message={"bienvenidos"} />}
+          ></Route>
+          <Route path="/Servicios" element={<Servicios />} />
+          <Route path="Contacto" element={<Contacto />} />
+          <Route path="Cart" element={<Cart />} />
+          <Route path="/item/:id" element={<ItemDetailContainer />}></Route>
+          <Route
+            path="/category/:categoryId"
+            element={<ItemListContainer />}
+          ></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 };

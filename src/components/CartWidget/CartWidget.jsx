@@ -1,10 +1,10 @@
-import { AiTwotoneShopping } from "react-icons/ai";
+import { TbShoppingCartBolt } from "react-icons/tb";
 
 export const CartWidget = () => {
   return (
     <>
-      <AiTwotoneShopping color="#e6e8f2" size={50} />
-      <p className="m-0">0</p>
+      <TbShoppingCartBolt size={40} />
+      <p>0</p>
     </>
   );
 };
